@@ -1,4 +1,10 @@
-windows wsl
+lo scopo e' quello di creare un'applicazione di backend che esponga api rest ( in questo caso scritto in go) ,
+un front end che le consumi utilizzando un framework per la realizzazione di SPA ( in questo caso si parte con vue3/pinia ),
+per poi andare a definire una pipeline di rilascio basata su docker/kubernates(minikube)/jenkins
+
+Questo e' il progetto dedicato alla fase 3, la pipeline.
+Per realizzare questa parte utilizzero' come host una ubuntu 20.04 su windows sfruttando [windows wsl](https://docs.microsoft.com/it-it/windows/wsl/install)
+
 #install docker
 ### remove old docker installation
 sudo apt-get remove docker docker-engine docker.io containerd runc
