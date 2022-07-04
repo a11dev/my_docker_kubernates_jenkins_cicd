@@ -36,7 +36,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ### check installation
 kubectl version --client --output=yaml    
 kubectl version --client
-###start docker
+### start docker
 sudo service docker start
 ### start minikube
 minikube start
